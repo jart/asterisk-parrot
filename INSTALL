@@ -1,0 +1,66 @@
+              .--.                              .--.
+            .'(`                               /  ..\
+         __.>\ '.  _.---,._,'             ____.'  _o/
+       /.--.  : |/' _.--.<                '--.     |.__
+    _..-'    `\     /'     `'             _.-'     /--'
+     >_.-``-. `Y  /' _.---._____     _.--'        /
+    '` .-''. \|:  \.'   ___, .-'`   ~'--....___.-'
+     .'--._ `-:  \/   /'    \\
+         /.'`\ :;    /'       `-.
+        -`    |     |
+              :.; : |            Phone Parrot for Asterisk
+              |:    |                  Version o.1.1
+              |     |
+              :. :  |    Copyright (c) 2006-2009 J.A. Roberts Tunney
+            .jgs    ;             Keep it open source pigs
+            /:::.    `\
+----------------------------------------------------------------------
+
+J.A. Roberts Tunney <jtunney@lobstertech.com>
+http://www.lobstertech.com/code/phoneparrot/
+
+----------------------------------------------------------------------
+REQUIREMENTS
+----------------------------------------------------------------------
+
+ - Asterisk
+ - Asterisk headers (If you choose to compile from source)
+ - libsoundtouch4c *OPTIONAL*
+
+----------------------------------------------------------------------
+BINARY INSTALLATION
+----------------------------------------------------------------------
+
+Run the following commands while inside the source directory for this
+program.
+
+	make installbin
+
+All the above command does is copies the module library files to the
+default Asterisk module dir: /usr/lib/asterisk/modules
+
+----------------------------------------------------------------------
+INSTALLATION FROM SOURCE
+----------------------------------------------------------------------
+
+Run the following commands while inside the source directory for this
+program.
+
+	make
+	make install
+
+If that worked, the module should now be loaded in to Asterisk next
+time it is restarted.  If you want to load the Jukebox application in
+to a running instance of Asterisk without restart, then issue this
+command:
+
+	make start
+
+If you make a change any of the code, you can recompile, intall, and
+reload all the modules in to Asterisk with one command:
+
+	make restart
+
+To unload the modules:
+
+	make stop

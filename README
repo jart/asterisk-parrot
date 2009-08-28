@@ -1,0 +1,29 @@
+              .--.                              .--.
+            .'(`                               /  ..\
+         __.>\ '.  _.---,._,'             ____.'  _o/
+       /.--.  : |/' _.--.<                '--.     |.__
+    _..-'    `\     /'     `'             _.-'     /--'
+     >_.-``-. `Y  /' _.---._____     _.--'        /
+    '` .-''. \|:  \.'   ___, .-'`   ~'--....___.-'
+     .'--._ `-:  \/   /'    \\
+         /.'`\ :;    /'       `-.
+        -`    |     |
+              :.; : |            Phone Parrot for Asterisk
+              |:    |                  Version o.1.1
+              |     |
+              :. :  |    Copyright (c) 2006-2009 J.A. Roberts Tunney
+            .jgs    ;             Keep it open source pigs
+            /:::.    `\
+----------------------------------------------------------------------
+
+J.A. Roberts Tunney <jtunney@lobstertech.com>
+http://www.lobstertech.com/code/phoneparrot/
+
+----------------------------------------------------------------------
+DESCRIPTION
+----------------------------------------------------------------------
+
+This application repeats back to caller what they say like a child
+would when playing a copycat game.  For more information please
+install and type `show application parrot` on the Asterisk command
+line.  You can also get infromation from the website.
