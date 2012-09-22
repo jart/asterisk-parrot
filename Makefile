@@ -1,12 +1,12 @@
 #
 # Asterisk Phone ParrotMakefile
 #
-# Copyright (C) 2005-2009 J.A. Roberts Tunney
+# Copyright (C) 2005-2012 Justine Tunney
 #
-# J.A. Roberts Tunney <jtunney@lobstertech.com>
+# Justine Tunney <jtunney@lobstertech.com>
 #
 # This program is free software, distributed under the terms of
-# the GNU General Public License
+# the GNU General Public License v2.0 or later
 #
 
 CC          = gcc
